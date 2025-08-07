@@ -1,3 +1,58 @@
-:root {
-	background-color: black;
+header {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	color: white;
+	margin: 1rem 2rem;
+}
+
+nav {
+	display: flex;
+	gap: 3rem;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#hero-section {
+	display: flex;
+	align-items: column;
+}
+
+#banner-title {
+	font-weight: 800px;
+	color: white;
+	display: flex;
+}
+
+#pro-card {
+	display: flex;
+	align-items: center;
+	gap: 10rem;
+	color: white;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+#quote {
+	color: white;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+.button {
+	height: 30px;
+	width: 175px;
+	border-radius: 8px;
+	background-color: #C271FF;
+	color: white;
 }
