@@ -20,18 +20,26 @@ nav a {
 body {
 	background-image: url("images/background.png");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	background-position: center;
 }
 
 #hero-section {
 	display: flex;
-	align-items: column;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 5rem;
+	height: 100vh;
+	justify-content: center;
 }
 
 #banner-title {
-	font-weight: 800px;
+	font-weight: bold;
 	color: white;
 	display: flex;
+	text-align: center;
+	font-size: 120px;
 }
 
 #pro-card {
@@ -47,12 +55,22 @@ body {
 	color: white;
 	margin-left: 10rem;
 	margin-right: 10rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	font-style: italic;
+
 }
 
 .button {
-	height: 30px;
-	width: 175px;
-	border-radius: 8px;
+	height: 2rem;
+	width: 10rem;
+	border-radius: 0.5rem;
 	background-color: #C271FF;
+	color: white;
+	margin-top: 3rem;
+	font-weight: bold;
+}
+
+p {
 	color: white;
 }
