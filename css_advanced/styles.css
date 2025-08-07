@@ -1,32 +1,35 @@
 html {
 	font-family: 'Source Sans 3', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
+body {
+	padding: 0;
+	margin: 0;
+}
 
 header {
-	align-items: center;
-	justify-content: space-between;
-	display: flex;
 	color: white;
 	margin: 1rem 2rem;
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 nav {
 	display: flex;
-	gap: 3rem;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em 2em;
 }
 
 nav a {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: white;
-}
-
-body {
-	background-image: url("images/background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	font-weight: bold;
 }
 
 #hero-section {
@@ -45,6 +48,15 @@ body {
 	display: flex;
 	text-align: center;
 	font-size: 120px;
+	margin-bottom: 0;
+}
+
+#banner-title-subheading {
+	font-weight: bold;
+	font-size: 16px;
+	word-spacing: 3rem;
+	margin: 0;
+	transform: translateY(-20px);
 }
 
 #pro-card {
