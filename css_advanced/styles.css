@@ -30,7 +30,7 @@ nav a {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	word-spacing: 3em;
+	margin-right: 2em;
 }
 
 #hero-section {
@@ -60,21 +60,27 @@ nav a {
 	transform: translateY(-20px);
 }
 
+#prolearn {
+	text-align: center;
+	justify-content: center;
+}
+
+#prolearnlearn {
+	color:#C271FF;
+}
+
 #pro-card {
 	display: flex;
 	align-items: center;
 	color: white;
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
-	gap: 17rem;
+	margin: 0;
+	gap: 12rem;
+	justify-content: center;
 }
 
 #quote {
 	color: white;
-	margin-left: 0rem;
-	margin-right: 0rem;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	margin: 0;
 	font-style: italic;
 	background-color: #C271FF;
 	background-size: cover;
