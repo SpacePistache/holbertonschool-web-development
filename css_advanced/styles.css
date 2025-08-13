@@ -212,7 +212,7 @@ nav a {
 }
 
 
-#membership {
+#Membership-Section {
   background: #071629;
   color: white;
   text-align: center;
@@ -239,6 +239,10 @@ nav a {
   font-size: 2rem;
   color: #C271FF;
   margin-bottom: 1rem;
+}
+
+.smile-logo {
+	color: #C271FF;
 }
 
 .button {
