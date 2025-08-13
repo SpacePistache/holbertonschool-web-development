@@ -81,7 +81,6 @@ nav a {
 #quote {
 	color: white;
 	margin: 0;
-	font-style: italic;
 	background-color: #C271FF;
 	background-size: cover;
 	background-position: center;
@@ -89,7 +88,25 @@ nav a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-height: 300px;
+	gap: 3rem
+}
 
+#quote blockquote {
+	margin: 0 0 1rem 0; 
+}
+
+#quote em {
+	font-style: italic;
+}
+
+#Video-Section {
+	text-align: center;
+	padding: 4rem 2rem;
+}
+
+#popularvid {
+	color:#C271FF;
 }
 
 .button {
