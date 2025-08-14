@@ -215,8 +215,19 @@ nav a {
 #Membership-Section {
   background: #071629;
   color: white;
+  background: #071629;
+  color: white;
   text-align: center;
   padding: 4rem 2rem;
+}
+
+#Membership-Section > div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 #membership .highlight {
@@ -230,14 +241,14 @@ nav a {
   margin-top: 2rem;
 }
 
-.benefit {
+.membership-card {
   max-width: 200px;
   margin: 1rem;
+  text-align: center;
 }
 
-.benefit .icon {
-  font-size: 2rem;
-  color: #C271FF;
+.membership-card .smile-logo {
+  width: 50px;
   margin-bottom: 1rem;
 }
 
